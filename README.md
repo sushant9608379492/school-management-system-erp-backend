@@ -12,6 +12,7 @@ The system follows a microservices-based design with independent Spring Boot ser
 
 - **student-service**
 - **admission-service**
+- **school-payment-api**
 
 Each service has its own database layer, business logic, and REST APIs.  
 Services communicate synchronously using REST APIs via Spring WebClient.
@@ -76,4 +77,3 @@ Handles the admission workflow and integrates with Student Service.
 ---
 
 ## 📂 Project Structure (Mono Repo)
-
